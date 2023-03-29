@@ -1,0 +1,27 @@
+
+
+Passo a passo para clonar o repositório do git para sua máquina e enviar arquivos/alterações feito na sua máquina para repositório 
+
+---------------------------------------------------------------------------------------------------------
+Trazer o repositório do git :
+
+git close  -  git close + o nome do repositório traz o repositório para máquina, exempo : git close https://github.com/diasprogramacao/CursoJavaProgrammer
+------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+Enviar arquivos/alterações para o repositório do git.
+
+git status  -mostra os arquivos que sofreram aterações.
+git add .   - coloca na fila do commit/push todos os arquivos que sofreram alteração.
+git add     - coloca na fila do commit/push apenas o nome do arquivo que mencionar depois do comando git add 
+git commit -m "comentário".  Adiciona o add comentário referente as alterações/novos arquivos.
+git push - sobe os arquivos/alterações
+----------------------------------------------------------------------------------------------------------------
+
+
+Caso seja a primeira vez que esteja fazer o commit, é necessário rodar o seguinte comando :
+
+git config --global user.email diasprogramacao@gmail.com
+
+
+isso para o cmd conseguir logar no git.
